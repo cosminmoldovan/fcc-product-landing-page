@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header id="header">
+        <div class="header-wrapper">
+            <div id="logo">
+                <img id="header-img" src="https://i.postimg.cc/d3bGqq6r/watch-logo.png" id="header-img" alt="logo" width="32px">
+                <span id="logo-label">Apple Watch</span>
+            </div>
+            <nav id="nav-bar">
+                <label class="menu-btn" for="menu-checkbox"><i class="las la-bars"></i></label>
+                <input type="checkbox" id="menu-checkbox">
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="#hero-section" class="nav-link">gallery</a></li>
+                    <li><a href="#features-section" class="nav-link">description</a></li>
+                    <li><a href="#video-section" class="nav-link">details</a></li>
+                    <li><a href="#pricing-section" class="nav-link">reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero-section">
+            <div id="hero-info">
+                <div>
+                    <h1 class="hero-title"><span>Great Watch</span><br>Great Price</h1>
+                    <p id="hero-subtitle">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
+                </div>
+                <a href="#" id="hero-btn" class="btn">Buy Now</a>
+            </div>
+            <div id="hero-img">
+                <image src="https://i.postimg.cc/9fCJ1XpY/black-watch-transparent.png">
+            </div>
+        </section>
+
+        <section id="features-section">
+            <h2 class="section-title">Great Features</h2>
+            <div id="features-group">
+                <div class="card feature-box">
+                    <div class="feature-icon">
+                        <i class="las la-heartbeat"></i>
+                    </div>
+                    <div class="feature-details">
+                        <h4>Heart Monitor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, dolorum molestias? Quae, eaque.</p>
+                    </div>
+                </div>
+                <div class="card feature-box">
+                    <div class="feature-icon">
+                        <i class="las la-bell"></i>
+                    </div>
+                    <div class="feature-details">
+                        <h4>Alarm Alert</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, dolorum molestias? Quae, eaque.</p>
+                    </div>
+                </div>
+                <div class="card feature-box">
+                    <div class="feature-icon">
+                        <i class="las la-map-marked"></i>
+                    </div>
+                    <div class="feature-details">
+                        <h4>Distance Counter</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, dolorum molestias? Quae, eaque.</p>
+                    </div>
+                </div>
+                <div class="card feature-box">
+                    <div class="feature-icon">
+                        <i class="lab la-bluetooth"></i>
+                    </div>
+                    <div class="feature-details">
+                        <h4>Bluetooth</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, dolorum molestias? Quae, eaque.</p>
+                    </div>
+                </div>
+                <div class="card feature-box">
+                    <div class="feature-icon">
+                        <i class="las la-cloud-sun"></i>
+                    </div>
+                    <div class="feature-details">
+                        <h4>Weather Update</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, dolorum molestias? Quae, eaque.</p>
+                    </div>
+                </div>
+                <div class="card feature-box">
+                    <div class="feature-icon">
+                        <i class="las la-comments"></i>
+                    </div>
+                    <div class="feature-details">
+                        <h4>WiFi Data Sync</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, dolorum molestias? Quae, eaque.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video-section">
+            <h2 class="section-title">Apple Event - One more thing.</h2>
+            <div class="video-wrapper">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/5AwdkGKmZ0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="pricing-section">
+            <div class="section-wrapper">
+                <h2 class="section-title">Chose Your Favorite</h2>
+                <ul class="product-list">
+                    <li class="card product-box">
+                        <img alt="" src="https://i.postimg.cc/d34TPqWg/apple-watch-s6.jpg">
+                        <h5>Apple Watch Series 6</h5>
+                        <p class="price"><span>from</span> $<strong>249</strong></p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </li>
+                    <li class="card product-box">
+                        <img alt="" src="https://i.postimg.cc/5Npw1tY1/apple-watch-series-se.jpg">
+                        <h5>Apple Watch SE</h5>
+                        <p class="price"><span>from</span> $<strong>199</strong></p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </li>
+                    <li class="card product-box">
+                        <img alt="" src="https://i.postimg.cc/28C4PW52/apple-watch-series-3.jpg">
+                        <h5>Apple Watch Series 3</h5>
+                        <p class="price"><span>from</span> $<strong>99</strong></p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="subscribe-section">
+            <h2 class="section-title">Subscribe To Get Updates</h2>
+            <form action="https://www.freecodecamp.org/email-submit" id="form">
+                <input type="email" id="email" name="email" placeholder="Your email address..." required>
+                <input type="submit" id="submit" class="btn" value="Subscribe">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright-section">
+            Copyright © 2021 Cosmin Moldovan. All rights reserved. 
+        </div>
+    </footer>
+</body>
+</html>
