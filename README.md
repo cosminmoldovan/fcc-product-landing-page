@@ -6,6 +6,6 @@
 
 **Requirements:** <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page/">View Requirements</a>
 
-**Solution Link:** <a href="https://codepen.io/cosmin-moldovan/full/GREXrVB">Live Demo</a>
+**Solution Link:** <a href="https://cosminmoldovan.github.io/fcc-product-landing-page/">Live Demo</a>
 
-<img src="project-thumbnail.png" />
+<a href="https://cosminmoldovan.github.io/fcc-product-landing-page/"><img src="project-thumbnail.png" /></a>
