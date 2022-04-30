@@ -8,4 +8,4 @@
 
 **Solution Link:** <a href="https://cosminmoldovan.github.io/fcc-product-landing-page/">Live Demo</a>
 
-<a href="https://cosminmoldovan.github.io/fcc-product-landing-page/"><img src="project-thumbnail.png" /></a>
+<a href="https://cosminmoldovan.github.io/fcc-product-landing-page/" target="_blank"><img src="project-thumbnail.png" /></a>
